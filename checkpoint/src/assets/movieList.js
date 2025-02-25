@@ -16,7 +16,7 @@ const movieList =  [
     {
       "title": "Interstellar",
       "description": "A team of explorers travels through a wormhole in space to save humanity.",
-      "posterURL": "/interstellar.jpg",
+      "posterURL": "/intersteller.jpg",
       "rating": 8.6,
       "wiki":"https://en.wikipedia.org/wiki/Interstellar_(film)"
     },
