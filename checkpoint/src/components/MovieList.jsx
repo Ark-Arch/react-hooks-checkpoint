@@ -10,7 +10,7 @@ const MovieList = ({movies}) => {
                 {
                     movies.map((movie, index) => {
                         return (
-                            <div className='col-md-2 col-lg-auto mb-4'>
+                            <div className='col-md-2 col-lg-auto mb-4' key={index}>
                                 <MovieCard key={index} title={movie.title} description={movie.description} posterURL={movie.posterURL} rating={movie.rating} wiki={movie.wiki}/>
                             </div>
                         )
