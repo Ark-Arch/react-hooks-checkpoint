@@ -26,7 +26,8 @@ function App() {
     setMovies(films)
   }
   const handleMovieRatingFilter = (rating) => {
-    let films = movieList.filter((movie) => movie.rating >= rating)
+    let films = movieList.filter((movie) => movie.rating*1 >= rating)
+    console.log(films)
     setMovies(films)
   }
 
