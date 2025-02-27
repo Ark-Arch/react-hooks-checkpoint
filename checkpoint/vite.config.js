@@ -7,7 +7,7 @@ export default defineConfig({
 
   server: {
     allowedHosts: [
-      "5173-arkarch-reacthookscheck-w7k1x9yxw4o.ws-eu118.gitpod.io" // Add your Gitpod host
+      "5173-arkarch-reacthookscheck-bazgoik6cpm.ws-eu118.gitpod.io" // Add your Gitpod host
     ]
   }
 })
